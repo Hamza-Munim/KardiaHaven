@@ -1,0 +1,219 @@
+body {
+  background-image: url("/Imgs/background1.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1, h2, h3, h4{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style: bold;
+}
+
+a{
+  font-weight: 500;
+    text-decoration: none;
+    color: rgb(101, 54, 25);
+}
+.TopBanner {
+  background-color: #000000;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 700px;
+  opacity: 85%;
+}
+.Logobox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+}
+.logo {
+  width: 250px;
+  height: auto;
+  flex: 1 1 200px;
+  margin-top: 100px;
+}
+.Navi {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  text-decoration: none;
+}
+.Navi a {
+  color: rgb(144, 139, 108);
+  display: block;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 200;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding: 0;
+}
+.Navi a:hover {
+  color: azure;
+}
+.Navi ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  overflow: hidden;
+}
+.Navi li {
+  float: left;
+}
+
+ .Heading{
+    margin-bottom: 80px;
+    font-weight: 500;
+ }
+
+  .Content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 5%;
+  }
+
+  .sec1-left hr{
+    border-top: .5px, solid;
+    border-color: #00000097;
+    padding: 0;
+    margin: 5px;
+}
+
+.sec1-content{
+    display: flex;
+}
+.sec1-right{
+    border-right: 30%;
+    padding-left: 5%;
+}
+.sec1-right img{
+    width: 450px;
+    height: auto;
+    
+}
+
+.sec1{
+    margin-bottom: 5%;
+}
+
+
+.Info-card{
+    margin-top: 20px;
+    border-style: groove;
+    border-color: #000000;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.FusionRow1{
+  margin-top: 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.FusionRow1 ul{
+  list-style: none;
+  left: 0;
+  padding-left:0;
+  padding-right:0;
+  margin-right: 0;
+  overflow: hidden;
+}
+.FusionRow1 li{
+  float: left;
+  padding-inline: 5vw;
+}
+
+.FusionRow1 a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.Fusion{
+  background-color:rgba(230, 230, 176, 0.438);
+  width: 100%;
+  max-width: 2480px;
+  min-width: 700px;
+}
+.FusionRow2{
+  border-radius: 30%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  width: 30%;
+  margin-left: 36%;
+  
+}
+.FusionRow2 p{
+  text-align: center;
+  align-content: center;
+  color: #000000;
+  padding-inline: 50px;
+}
+.FusionRow2 a{
+  text-decoration: none;
+  color: #000000;
+  align-content: center;
+  text-align: center;
+  
+  padding-inline: 10px;
+}
+
+footer{
+  background-color: #151515;
+  padding: 1.5%;
+  padding-right:10%;
+  opacity: 100%;
+  padding-left: 10%;
+  
+  color:rgba(245, 245, 220, 0.47);
+  font-size: 12px;
+}
+
+.Footer a{
+  text-decoration: none;  
+  color:rgba(245, 245, 220, 0.47);
+  font-size: 12px;
+}
+
+.Footer a:hover{
+  color:antiquewhite;
+}
+
+.Footer span{
+  float: right;
+}
+
+.Fusion-Footer{
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  min-width: 500px;
+  max-width: 2480px;
+}
